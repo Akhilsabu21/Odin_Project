@@ -1,0 +1,721 @@
+body{
+    margin: 0;
+}
+.the-odin-project{
+    font-family: 'Londrina Solid', cursive;
+}
+.top-body{
+    background-color: rgb(241, 241, 241);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.top{
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+    gap: 5px;
+}
+.top .new{
+    background-color: rgb(116, 255, 130);
+    color: green;
+    border-radius: 3px;
+    padding:0 5px;
+    font-size: smaller;
+}
+.top button{
+    background-color: transparent;
+    border: 0;
+}
+.top h6{
+    color: #374151;
+}
+.top a{
+    font-size: large;
+    font-weight: bolder;
+    color: black;
+}
+.top-body button{
+    background-color: transparent;
+    border: 0;
+}
+.sun{
+    background-color:transparent;
+    border: 0;
+    margin-top: 5px;
+}
+.start{
+    background-color: rgb(67, 143, 107);
+    color: #ffff;
+    margin-left: 5px;
+    width: 130px;
+    height: 40px;
+    border: 5px double  rgb(67, 143, 107) ;
+    border-radius: 5px;
+    font-size: medium;
+}
+.nav-left{
+    width: 59.5%;
+}
+.nav-right{
+    width: 40%;
+}
+/* .main-para h1{
+    font-size: 3.75rem;
+    margin-top: 100px;
+    padding: 0 150px;
+    text-align: center;
+    color: rgb(74, 74, 74);
+} */
+.secondary-page-nav{
+    border-bottom: 1px solid rgb(173, 173, 173);
+}
+.gold-text{
+    color: #a9792b;
+}
+/* .main-para h4{
+    text-align: center;
+    padding: 0 350px;
+    color: rgb(74, 74, 74);
+    font-weight:200;
+} */
+.curriculum{
+    height: 100px;
+} 
+.curriculum button{
+    background-color: transparent;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    border: .5px solid rgb(136, 136, 136);
+}
+/* .page-heading{
+    text-align: center;
+    padding-top: 80px;
+    margin-bottom: 10px;
+}
+.page-para{
+    padding: 0 300px;
+    text-align: center;
+    font-size: large;
+} */
+
+.card-1, .card-2, .card-3{
+    border: 0;
+}
+
+.page-detail-cards{
+    background-color: #f4f3f3;
+}
+.cards-heading{
+    text-align: center;
+}
+.cards-heading h1{
+    padding: 60px 0 60px 0;
+}
+.nine-card h5{
+    text-align: center;
+    margin-top: 10px;
+}
+.story-head h2{
+    text-align: center;
+    margin: 80px 0;
+}
+.curriculum-2{
+    height: 200px;
+}
+.curriculum-2 button{
+    background-color: transparent;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    border: .5px solid rgb(136, 136, 136);
+}
+
+.cards-6 a{
+    color: rgb(79, 79, 79);
+}
+.card-border{
+    border: 0;
+}
+.cards-6-container{
+    background-image: linear-gradient(white , #f2f0f0 );
+}
+.six-image{
+    height: 50px;
+    width: 50px;
+}
+.six-image img{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+}
+.story-link{
+    height: 200px;
+}
+.story-link a{
+    color: rgb(103, 103, 103);
+    font-size: x-large;
+}
+.footer{
+    margin-top: 60px;
+    height: 300px;
+}
+.footer-about{
+    margin-top: 60px;
+}
+.footer-icon-btn{
+    margin: 5px 10px;
+    width: 40px;
+    height: 40px;
+    border: 0;
+    border-radius: 90%;
+}
+.footer-icon-btn img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+.footer-container{
+    border-bottom: 1px solid grey;
+}
+.footer-about ul{
+    list-style-type: none;
+}
+.footer-about a{
+    text-decoration: none;
+    color: #858585;
+}
+.heading{
+    margin-top: 70px;
+    height: 100px;
+    text-align: center;
+}
+.path-card-body{
+    position: relative;
+    left: 15px;
+}
+.path-card-btn{
+    background-color: #757575;
+    width: 130px;
+    height: 40px;
+}
+.path-card{
+    padding-top: 20px;
+    padding-left: 10px;
+    height: 100px;
+    border-top: 1px solid #aaa7a7;
+}
+.heading-2{
+    margin-top: 20px;
+    height: 50px;
+    text-align: center;
+}
+
+.two-card-img img{
+    width: 30%;
+}
+
+
+
+.about-last-para{
+    text-align: center;
+}
+.about-last-btn button{
+    background-color: #0f766e;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.signin-box-heading{
+    text-align: center;
+    margin: 45px 0 25px 0;
+}
+.signin-box-heading h2{
+    margin-bottom: 0;
+}
+.signin-box-heading a{
+    color: #757575;
+    margin-bottom: 10px;
+}
+.signup-btn{
+    text-align: center;
+}
+.signup-btn a{
+    color: #676767;
+}
+.signup-btn button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 90%;
+    background-color: #0f766e;
+}
+.continue{
+    width: 100%;
+    text-align: center;
+}
+.one{
+    width: 45%;
+}
+.one button{
+    margin-top: 20px;
+    width: 90%;
+    height: 40px;
+    border: .5px solid #757575;
+}
+.one img{
+    width: 25%;
+    height: 30px;
+}
+.footer-a-tag li{
+    margin: 10px 0 5px 0;
+}
+.rounded-start{
+    border-radius: 100% !important;
+}
+.foundation-btn button{
+    background-color: #b3b8ba;
+    border: 0;
+    border-radius: 5px;
+    height: 40px;
+    width: 90px;
+}
+.left-section button{
+    width: 160px;
+    height: 50px;
+    border: .4px solid;
+    border-radius: 5px;
+}
+
+
+
+
+@media (min-width:1199.98px){
+    .card-row{
+        width: 55%;
+    }
+    .nine-card{
+        margin-bottom: 15px;
+        width: 30%;
+    } 
+    .cards-6{
+        padding-left: 100px;
+    }
+
+    .three-cards-row{
+        width: 85%;
+        gap: 50px;
+    }
+    .nine-card img{
+        width: 75%;
+        position: relative;
+        top: 20px;
+        left: 25px;
+    }
+    .signin-box{
+        width: 22%;
+        height: auto;
+        border: 1px solid rgb(222, 222, 222);
+        border-radius: 10px;
+        padding: 20px;
+        margin-top: 25px;
+    }
+    .two-card-body{
+        width: 67%;
+    }
+    .two-cards-border{
+        width: 49%;
+    }
+    .two-card-img{
+        padding: 55px 8px;
+    }
+    .about-para-container{
+        padding: 0 220px 0 220px;
+    }
+    .about-img img{
+        padding: 20px;
+        width: 40%;
+    }
+    .overview-main-body{
+        background-color: #f0f0f0;
+        height: auto;
+        padding-bottom: 50px;
+    }
+    .overview-box{
+        max-width: 250px;
+        height: 100px;
+        margin-bottom: 10px;
+        background-color: #ffff;
+        text-align: center;
+        border-radius: 5px;
+    }
+    .foundation-image{
+        padding: 20px 0 20px 25px;
+    }
+    .overview-para-1{
+        width: 60%;
+        height: auto;
+        text-align: justify;
+        background-color: #ffff;
+        margin-bottom: 20px;
+        padding: 25px 20px;
+        border-radius: 5px;
+    }
+    .overview-para-2{
+        width: 39%;
+        height: auto;
+        text-align: justify;
+        background-color: #ffff;
+        margin-bottom: 20px;
+        padding: 25px 20px;
+        border-radius: 5px;
+    }
+    .overview-para-2 img{
+        height: 50px;
+        width: 50px;
+        border-radius: 100%;
+    }
+    .right-section{
+        width: 50%;
+    }
+    .left-section{
+        width: 49.5%;
+        height: auto;
+        text-align: center;
+        padding-top: 180px;
+    }
+}
+
+@media (min-width:992px){
+
+    .main-para h1{
+        text-align: center;
+        font-size: 3.75rem;
+        margin-top: 100px;
+        color: rgb(74, 74, 74);
+    }
+    .main-para h4{
+        text-align: center;
+        color: rgb(74, 74, 74);
+        font-weight:200;
+    }
+    .page-heading{
+        text-align: center;
+        margin-bottom: 10px;
+        margin-top: 50px;
+    }
+    .page-para{
+        padding: 0 280px;
+        text-align: center;
+        font-size: large;
+    }
+    .card-row{
+        width: 55%;
+    }
+    .nine-card{
+        margin-bottom: 15px;
+        width: 30%;
+    }
+    .nine-card img{
+        width: 75%;
+        position: relative;
+        top: 20px;
+        left: 25px;
+    }
+    .signin-box{
+        width: 28%;
+        height: auto;
+        border: 1px solid rgb(222, 222, 222);
+        border-radius: 10px;
+        padding: 20px;
+        margin-top: 25px;
+    }
+    .two-card-body{
+        width: 65%;
+    }
+    .two-cards-border{
+        width: 49.5%;
+    }
+    .two-card-img{
+        padding: 55px 8px;
+    }
+    .about-para-container{
+    padding: 0 220px 0 220px;
+    }
+    .about-img img{
+    padding: 20px;
+    width: 65%;
+    }
+    .overview-box{
+        width: 100%;
+        height: 100px;
+        margin-bottom: 10px;
+        background-color: #ffffff;
+        text-align: center;
+        border-radius: 5px;
+    }
+    .overview-main-body{
+        height: auto;
+        padding-bottom: 50px;
+    }
+    .foundation-image{
+        padding: 20px 0 20px 25px;
+    }
+    .overview-para-1{
+        width: 60%;
+        height: auto;
+        text-align: justify;
+        background-color: #ffff;
+        margin-bottom: 20px;
+        padding: 25px 20px;
+        border-radius: 5px;
+    }
+    .overview-para-2{
+        width: 39%;
+        height: auto;
+        text-align: justify;
+        background-color: #ffff;
+        margin-bottom: 20px;
+        padding: 25px 20px;
+        border-radius: 5px;
+    }
+    .overview-para-2 img{
+        height: 50px;
+        width: 50px;
+        border-radius: 100%;
+    }
+    .right-section{
+        width: 45%;
+    }
+    .left-section{
+        width: 54%;
+        height: auto;
+        text-align: center;
+    }
+    .left-section button{
+        margin-left: 160px;
+    }
+}
+
+
+@media (min-width:768px) and (max-width:991.98px){
+    .main-para h1{
+        font-size: 3rem;
+        margin-top: 30px;
+        text-align: center;
+        color: rgb(74, 74, 74);
+        }
+        .main-para h4{
+            text-align: center;
+            color: rgb(74, 74, 74);
+            font-weight:150;
+        }
+        .page-heading{
+            text-align: center;
+            margin-bottom: 10px;
+            margin-top: 50px;
+        }
+        .page-para{
+            padding: 0 80px;
+            text-align: center;
+            font-size: large;
+        }
+        .cards{
+            gap: 40px;
+        }
+        .card-row{
+            width: 60%;
+        }
+        .nine-card{
+            margin-bottom: 15px;
+            width: 50%;
+        }.signin-box{
+            width: 60%;
+            height: auto;
+            border: 1px solid rgb(222, 222, 222);
+            border-radius: 10px;
+            padding: 20px;
+            margin-top: 25px;
+        }
+        .two-cards-border{
+            min-width: 400px;
+            max-width: 49%;
+            margin-top: 50px;
+        }
+        .two-card-img{
+            padding: 55px 8px;
+        }
+        .about-para-container{
+        padding: 0 50px 0 50px;
+        }
+        .about-img img{
+        padding: 20px;
+        width: 80%;
+        }
+        .overview-box{
+            width: 100%;
+            height: 100px;
+            margin-bottom: 10px;
+            background-color: #ffff;
+            text-align: center;
+            border-radius: 5px;
+        }
+        .overview-main-body{
+            height: auto;
+            padding-bottom: 50px;
+        }
+        .foundation-image{
+            padding: 20px 0 20px 25px;
+        }
+        .overview-para-1{
+            width: 100%;
+            height: auto;
+            text-align: justify;
+            background-color: #ffff;
+            margin-bottom: 20px;
+            padding: 25px 20px;
+            border-radius: 5px;
+        }
+        .overview-para-2{
+            width: 100%;
+            height: auto;
+            text-align: justify;
+            background-color: #ffff;
+            margin-bottom: 20px;
+            padding: 25px 20px;
+            border-radius: 5px;
+        }
+        .overview-para-2 img{
+            height: 50px;
+            width: 50px;
+            border-radius: 100%;
+        }
+        .right-section{
+            width: 100%;
+        }
+        .left-section{
+            width: 100%;
+            height: auto;
+            text-align: center;
+        }
+        .left-section button{
+            margin-left: 160px;
+        }
+}
+
+@media (min-width:300px) and (max-width:767.98px){
+    .main-para h1{
+        font-size: 1.75rem;
+        margin-top: 20px;
+        text-align: center;
+        color: rgb(74, 74, 74);
+        }
+        .main-para h4{
+            text-align: center;
+            color: rgb(74, 74, 74);
+            font-weight:100;
+        }
+        .page-heading{
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        .page-para{
+            text-align: center;
+            font-size: large;
+        }
+        .card-1, .card-2, .card-3{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .card-row{
+            width: 60%;
+        }
+        .nine-card{
+            margin-bottom: 15px;
+            width: 80%;
+
+            /* shadow-sm p-3 mb-5 bg-body rounded */
+
+        }.signin-box{
+            width: 80%;
+            height: auto;
+            border: 1px solid rgb(222, 222, 222);
+            border-radius: 10px;
+            padding: 20px;
+            margin-top: 25px;
+        }
+        .two-cards-border{
+            min-width: 400px;
+            max-width: 49%;
+            margin-top: 50px;
+        }
+        .two-card-img{
+            padding: 55px 8px;
+        }
+        .foundation-card{
+            text-align: center;
+        }
+        .about-para-container{
+        padding: 0;
+        }
+        .about-img{
+          text-align: center;  
+        }
+        .about-img img{
+        width: 50%;
+        }
+        .overview-box{
+            width: 100%;
+            height: 100px;
+            margin-bottom: 10px;
+            background-color: #ffff;
+            text-align: center;
+            border-radius: 5px;
+        }
+        .overview-main-body{
+            height: auto;
+            padding-bottom: 50px;
+        }
+        .foundation-image{
+            padding: 20px 0 20px 0;
+        }
+        .overview-para-1{
+            width: 100%;
+            height: auto;
+            text-align: justify;
+            background-color: #ffff;
+            margin-bottom: 20px;
+            padding: 25px 20px;
+            border-radius: 5px;
+        }
+        .overview-para-2{
+            width: 100%;
+            height: auto;
+            text-align: justify;
+            background-color: #ffff;
+            margin-bottom: 20px;
+            padding: 25px 20px;
+            border-radius: 5px;
+        }
+        .overview-para-2 img{
+            height: 50px;
+            width: 50px;
+            border-radius: 100%;
+        }
+        .right-section{
+            width: 100%;
+        }
+        .left-section{
+            width: 100%;
+            height: auto;
+            text-align: center;
+        }
+}
